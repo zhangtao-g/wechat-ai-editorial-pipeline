@@ -1,0 +1,20 @@
+{
+  "horizon_path": "~/.hermes/tools/Horizon",
+  "feeds": [
+    {"name":"OpenAI","url":"https://openai.com/news/rss.xml","category":"official"},
+    {"name":"Google DeepMind","url":"https://deepmind.google/blog/rss.xml","category":"official"},
+    {"name":"Google AI","url":"https://blog.google/technology/ai/rss/","category":"official"},
+    {"name":"Hugging Face","url":"https://huggingface.co/blog/feed.xml","category":"official"},
+    {"name":"NVIDIA AI","url":"https://blogs.nvidia.com/blog/category/deep-learning/feed/","category":"official"},
+    {"name":"Microsoft AI","url":"https://blogs.microsoft.com/ai/feed/","category":"official","enabled":false,"disabled_reason":"2026-10-19 server probe: HTTP 410"},
+    {"name":"Apple ML","url":"https://machinelearning.apple.com/rss.xml","category":"official"},
+    {"name":"TechCrunch AI","url":"https://techcrunch.com/category/artificial-intelligence/feed/","category":"media"},
+    {"name":"The Decoder","url":"https://the-decoder.com/feed/","category":"media"},
+    {"name":"MarkTechPost","url":"https://www.marktechpost.com/feed/","category":"media"},
+    {"name":"MIT Technology Review AI","url":"https://www.technologyreview.com/topic/artificial-intelligence/feed/","category":"media"},
+    {"name":"量子位","url":"https://www.qbitai.com/feed","category":"media"},
+    {"name":"机器之心","url":"https://www.jiqizhixin.com/rss","category":"media"}
+  ],
+  "repos":["anthropics/claude-code","ollama/ollama","vllm-project/vllm","huggingface/transformers","langgenius/dify"],
+  "hn_queries":["LLM","OpenAI","Anthropic","DeepSeek","AI agents","machine learning"]
+}

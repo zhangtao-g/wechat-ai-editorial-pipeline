@@ -1,0 +1,41 @@
+{
+  "feeds": [
+    {
+      "name": "宝玉原站",
+      "url": "https://baoyu.io/feed.xml",
+      "category": "media",
+      "kind": "creator"
+    },
+    {
+      "name": "IT之家",
+      "url": "https://www.ithome.com/rss/",
+      "category": "media"
+    }
+  ],
+  "repos": [
+    "deepseek-ai/DeepSeek-V3",
+    "QwenLM/Qwen3",
+    "MoonshotAI/Kimi-K2",
+    "THUDM/GLM-4.5"
+  ],
+  "creator_watchlist": [
+    {
+      "name": "宝玉",
+      "entry": "https://baoyu.io",
+      "mode": "rss_and_original_verification"
+    },
+    {
+      "name": "数字生命卡兹克",
+      "mode": "targeted_search_verify_original_account"
+    },
+    {
+      "name": "歸藏/归藏",
+      "mode": "targeted_search_verify_original_account"
+    },
+    {
+      "name": "李继刚",
+      "mode": "targeted_search_verify_original_account"
+    }
+  ],
+  "note": "Only tested RSS endpoints are enabled. Watchlist names are discovery leads, not an endorsement or a claim of full real-time access. Repository availability is verified during deployment."
+}

@@ -1,0 +1,5 @@
+{
+  "webhook_url": "https://open.feishu.cn/open-apis/bot/v2/hook/REPLACE_ME",
+  "signing_secret": "",
+  "keyword": "公众号草稿"
+}

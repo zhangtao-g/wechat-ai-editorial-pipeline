@@ -1,0 +1,34 @@
+# 凭据与本地配置
+.env
+.env.*
+!.env.example
+*.local
+wechat_credentials.json
+notification_config.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# 运行数据
+workspace/
+drafts/
+history/
+news/
+source_articles/
+*.sqlite3
+*.sqlite3-wal
+*.sqlite3-shm
+*.jsonl
+
+# 输出
+output/
+*.log
+*.tmp
+.DS_Store

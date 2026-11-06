@@ -1,0 +1,29 @@
+{
+  "date": "2026.11.06",
+  "title": "每天60秒看懂AI时间｜DeepSeek 把 API 价格再砍一半",
+  "lead": "今天的几条消息，都指向同一件事：AI 的调用成本还在往下走。",
+  "items": [
+    {
+      "title": "DeepSeek 把 API 价格再砍一半",
+      "body": "官方价格页更新，输入价格降到每百万 tokens 零点几元。对高频调用的小团队来说，这是实打实的成本变化。",
+      "highlight": "价格战还没结束。",
+      "source": "DeepSeek 官方文档",
+      "url": "https://api-docs.deepseek.com/quick_start/pricing"
+    },
+    {
+      "title": "腾讯 WorkBuddy 上线 Skills 市场",
+      "body": "企业可以把内部流程打包成 Skill，在企微里直接调用。官方演示了报销、合同审查和会议纪要三个场景。",
+      "highlight": "办公场景开始拼生态。",
+      "source": "腾讯云",
+      "url": "https://cloud.tencent.com/product/workbuddy"
+    },
+    {
+      "title": "一个开源 Agent 项目两天涨了 8000 星",
+      "body": "项目把浏览器操作、文件读写和定时任务串成一个可编排的工作流，issue 里已经有人拿它跑日报。",
+      "highlight": "Agent 的门槛还在降。",
+      "source": "GitHub Trending",
+      "url": "https://github.com/trending"
+    }
+  ],
+  "closing": "今天没有惊天动地的大新闻，但三条消息放在一起看，AI 的使用成本和组织方式都在继续下沉。"
+}
