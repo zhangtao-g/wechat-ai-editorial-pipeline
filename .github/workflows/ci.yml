@@ -1,0 +1,35 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Syntax check
+        run: python -m py_compile scripts/*.py covers/*.py
+
+      - name: Renderer contract tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Render example article
+        run: |
+          python scripts/render_article.py \
+            --input examples/article.example.md \
+            --out /tmp/body.html \
+            --preview /tmp/preview.html \
+            --date 2026.11.06 \
+            --column AI热点
+          test -s /tmp/body.html

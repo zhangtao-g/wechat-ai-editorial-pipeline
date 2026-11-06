@@ -600,6 +600,7 @@ python3 scripts/publish_article.py \
 │   └── images/example.png            # 示例配图
 ├── tests/
 │   └── test_render.py                # 渲染契约测试
+├── .github/workflows/ci.yml          # 语法检查 + 渲染测试
 ├── scripts/
 │   ├── ai_news.py                    # 采集 + 事件账本
 │   ├── hot_editor.py                 # 热点打分与排序
